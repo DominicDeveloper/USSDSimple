@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="19dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/itemTextViewName"
+            android:textSize="16sp"
+            android:text="Mobi 20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/itemTextViewCode"
+            android:textSize="16sp"
+            android:text="*111*120#"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="20 000/1 000 so`m oylik/kunlik abonent tolovi 500/17"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:id="@+id/itemTextViewAbout"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
